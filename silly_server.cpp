@@ -4,7 +4,7 @@
 using namespace boost;
 
 int main() {
-    std::cerr << "server is started" << std::endl;
+    std::cerr << "server started" << std::endl;
     asio::io_service io_service{};
     asio::ip::tcp::acceptor acceptor{
         io_service,
