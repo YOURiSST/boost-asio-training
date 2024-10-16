@@ -22,6 +22,6 @@ find_package(
     COMPONENTS asio
 )
 
-add_executable(training-boost-asio-exe main.cpp)
+add_executable(training-boost-asio-exe silly_server.cpp)
 target_link_libraries(training-boost-asio-exe PRIVATE Boost::asio)
 
